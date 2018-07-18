@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vocter-test</title>
-    <link rel="stylesheet" href="css/grow.css">
     <link rel="stylesheet" href="css/custom-style.css">
 </head>
 <body>
     <div class="wrapper">
         <header>
             <div class="wrapper-inner">
-                <div class="logo"></div>
+                <img class="logo" src="images/shield.png" alt="some image">
                 <div class="title">Цены и варианты защиты</div>
             </div>
         </header>
@@ -19,45 +18,64 @@
             <div class="wrapper-inner">
                 <div class="car-class">
                     <div class="car car-1">
-                        <div class="title"><a href="#">класс mini*</a></div>
-                        <div class="image hvr-grow"></div>
-                        <div class="calculate custom-select">
-                            <div class="current-value">рассчитать стоимость</div>
+                        <div class="title">класс mini*</div>
+                        <img src="images/mini-clear.jpg" alt="some image">
+                        <div class="calculate calc-1">рассчитать стоимость
+                            <div class="arrow-down ar-1"></div>
+                        </div>
+                    </div>
+                    <div class="car car-2">
+                        <div class="title">средний класс*</div>
+                        <img src="images/middle-clear.jpg" alt="some image">
+                        <div class="calculate calc-2">рассчитать стоимость
+                            <div class="arrow-down ar-2"></div>
+                        </div>
+                    </div>
+                    <div class="car car-3">
+                        <div class="title">премиум класс*</div>
+                        <img src="images/premium-clear.jpg" alt="some image">
+                        <div class="calculate calc-3">рассчитать стоимость
+                            <div class="arrow-down ar-3"></div>
+                        </div>
+                        <div class="menu">
                             <ul class="type">
                                 <li>минимальный</li>
                                 <li>стандарт</li>
                                 <li>стандарт+</li>
-                                <li>стандарт++</li>
+                                <li class="active">стандарт++</li>
                                 <li>целиком</li>
-                                <li class="car-parts">частями
-                                    <ul class="parts">
-                                        <li>оптика</li>
-                                        <li>пороги внутренние</li>
-                                        <li>пороги наружные</li>
-                                        <li>двери(4шт)</li>
-                                        <li>задние крылья</li>
-                                        <li>капот</li>
-                                        <li>передний бампер</li>
-                                        <li>задний бампер</li>
-                                    </ul>
-                                </li>
+                                <li class="car-parts">частями</li>
                             </ul>
-                            <input type="text" name="name" value="default">
+                            <ul class="parts">
+                                <li>оптика</li>
+                                <li>пороги внутренние</li>
+                                <li>пороги наружные</li>
+                                <li>двери(4шт)</li>
+                                <li>задние крылья</li>
+                                <li>капот</li>
+                                <li>передний бампер</li>
+                                <li>задний бампер</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="car car-2">
-                        <div class="title"><a href="#">средний класс*</a></div>
-                        <div class="image hvr-grow"></div>
-                        <div class="calculate"><a href="#">рассчитать стоимость</a></div>
-                    </div>
-                    <div class="car car-3">
-                        <div class="title"><a href="#">премиум класс*</a></div>
-                        <div class="image hvr-grow"></div>
-                        <div class="calculate"><a href="#">рассчитать стоимость</a></div>
-                    </div>
+                </div>
+                <div class="car-image">
+                    <img src="images/стандарт++.jpg" alt="some image">
                 </div>
             </div>
         </main>
+        <footer>
+            <div class="wrapper-inner">
+                <div class="estimate">
+                    <div class="cost-title">Цена:</div>
+                    <div class="description">
+                        <div class="services">Материалы + работа</div>
+                        <div class="sum">7000 руб.</div>
+                    </div>
+                </div>
+                <button class="call-me">позвоните мне</button>
+            </div>
+        </footer>
     </div>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/custom-js.js"></script>
